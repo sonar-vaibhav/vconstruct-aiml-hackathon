@@ -1,0 +1,39 @@
+# Ignore all PDFs in dataset subfolders by default
+dataset/**/*.pdf
+
+# Keep only 3 sample PDFs per category folder
+!dataset/Architectural/1.pdf
+!dataset/Architectural/2.pdf
+!dataset/Architectural/3.pdf
+
+!dataset/Electrical/1.pdf
+!dataset/Electrical/2.pdf
+!dataset/Electrical/3.pdf
+
+!dataset/Fire Protection/1.pdf
+!dataset/Fire Protection/2.pdf
+!dataset/Fire Protection/3.pdf
+
+!dataset/Mechanical/1.pdf
+!dataset/Mechanical/2.pdf
+!dataset/Mechanical/3.pdf
+
+!dataset/Plumbing/1.pdf
+!dataset/Plumbing/2.pdf
+!dataset/Plumbing/3.pdf
+
+!dataset/Structural/1.pdf
+!dataset/Structural/2.pdf
+!dataset/Structural/3.pdf
+
+!dataset/Data to be Classified and Redacted/4.pdf
+!dataset/Data to be Classified and Redacted/5.pdf
+!dataset/Data to be Classified and Redacted/8.pdf
+
+# Ignore output folder
+
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
